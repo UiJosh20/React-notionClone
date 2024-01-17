@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.navime {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 99 !important;
+  background-color: white;
+  width: 100%;
+}
+.navime2 {
+  display: flex;
+  gap: 20px;
+}
+.products {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+}
+.dropdownPro {
+  background-color: white;
+}
+.menuList {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.NavSecond {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.loginSide {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.loginSide > button {
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  padding: 12px;
+}
+.ham {
+  display: none !important;
+}
+.cross {
+  display: none !important;
+}
+
+.HamburgerMenu {
+  display: none !important;
+}
+.bodyConfig{
+  margin: 100px;
+  text-align: center;
+}
+.bodyConfig>h1{
+  font-size: 60px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bodyConfig>p{
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bodyConfig>button{
+  background-color: black;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 150px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 13px;
+}
+.heroImageDIv{
+  margin-top: 30px;
+}
+.options{
+  border: 2px solid rgba(128, 128, 128, 0.452);
+  width: 250px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.options1{
+  /* border: 2px solid rgba(128, 128, 128, 0.452); */
+  background-color: rgba(209, 208, 208, 0.24);
+  width: 250px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.options>h2{
+  text-align: start;
+  padding: 5px;
+}
+.options>p{
+  text-align: start;
+  padding: 5px;
+}
+
+.options>a{
+  margin-right: 100px;
+  padding: 5px;
+  text-decoration: none;
+  color: blueviolet;
+}
+.section1{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.options1>h2{
+  text-align: start;
+  padding: 5px;
+}
+.options1>p{
+  text-align: start;
+  padding: 5px;
+}
+
+.options1>a{
+  margin-right: 100px;
+  padding: 5px;
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.purpleBg{
+  background-color: rgba(198, 137, 255, 0.747);
+  width: 50px;
+  border-radius: 5px;
+  padding: 7px;
+}
+.purpleBg1{
+  background-color: rgba(253, 130, 130, 0.445);
+  width: 40px;
+  border-radius: 5px;
+  padding: 7px;
+}
+@media screen and (max-width: 475px) {
+  .menuList,
+  .NavSecond {
+    display: none;
+  }
+  .ham {
+    display: block !important;
+  }
+  .HamburgerMenu {
+    border: 2px solid red;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .menuList,
+  .NavSecond {
+    display: none;
+  }
+  .ham {
+    display: block;
+  }
+  #hamMenu{
+    width: 100% !important;
+    height: 100vh !important;
+    border: 5px solid red;
+  }
+}
